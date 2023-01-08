@@ -12,6 +12,8 @@ const useContract = () => {
   const { signer } = useProvider();
   const { addressConnected } = useConnection();
 
+  console.log(TodoList)
+
   const getTasks = async () => {
     try {
       const tasksFromBlockchain = await contract.getMyTasks();
