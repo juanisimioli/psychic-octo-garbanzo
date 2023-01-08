@@ -10,7 +10,7 @@ const Info = () => {
         </a>
       </p>
       <p>
-        Github Repo: <a className={styles.link} href="" target="_blank"></a>{" "}
+        Github Repo: <a className={styles.link} href="https://github.com/juanisimioli/todolist_ethereum" target="_blank"></a>{" "}
       </p>
     </div>
   );
