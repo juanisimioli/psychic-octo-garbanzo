@@ -2,7 +2,7 @@ import { ethers } from "ethers";
 import { useEffect, useState } from "react";
 import useProvider from "./useProvider";
 import { TodoListContractAddress } from "../../config";
-import TodoList from "../../../tdl-be/build/contracts/PaymentContract.json";
+import TodoList from "../../contract/TodoListContract.json";
 import useConnection from "./useConnection";
 
 const useContract = () => {
