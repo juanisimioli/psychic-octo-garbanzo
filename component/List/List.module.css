@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 1rem;
+  width: 400px;
+}
+
+.confirmText{
+  margin-top: 10px;
+  height: 20px;
+  color: orange;
+}
+
+.addTask {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.listContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 12px;
+}
+
+.listItem {
+  width: 100%;
+  height: 35px;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid black;
+  border-radius: 8px;
+  margin: 5px 0 5px 0;
+  padding: 0 10px 0 20px;
+  background-color: #DCF3FC;
+}
+
+.liGreen {
+  background-color: #E4F6DF;
+}
+
+.liRed {
+  background-color: #FFDCE4;
+}
+
+.action {
+  width: 60px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}

@@ -9,12 +9,18 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/icons-material": "^5.11.0",
+    "@mui/material": "^5.11.2",
+    "ethers": "^5.7.2",
+    "framer-motion": "^6.5.1",
     "next": "13.1.1",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
     "eslint": "8.30.0",
-    "eslint-config-next": "13.1.1"
+    "eslint-config-next": "^12.0.4"
   }
 }

@@ -1,0 +1,1 @@
+export const TodoListContractAddress = '0x7821455dEf0EECa660FDaC283c2205102147AA24';
